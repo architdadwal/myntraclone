@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .left img {
     width: 32px;
     height: 23px;
@@ -5,8 +14,14 @@
 
 
 .container{
+   
 padding:0 10vw ;
-margin:auto;
+
+}
+
+nav{
+    font-size: 14px;
+    padding-top: 14px;
 }
 
 
@@ -17,5 +32,17 @@ nav ul li {
 
 
 .section-1{
-    background:rgb(205, 204, 204) ;
+    background:rgb(225, 225, 225) ;
+    height: 122vh;
+}
+
+.desktop-searchBar{
+    height: 35px;
+    width: 400px;
+    padding: 4 17px;
+}
+
+.homeImg{
+    width: 80vw;
+    margin: 12px 0;
 }
